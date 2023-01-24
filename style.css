@@ -28,6 +28,13 @@ body * {
   gap: 1rem;
 }
 
+.info h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.25rem;
+  color: var(--purple);
+}
+
 .count {
   display: flex;
   justify-content: space-between;
@@ -37,4 +44,41 @@ body * {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+}
+
+span {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: var(--light-grey);
+}
+
+span.subscribe {
+  font-size: 0.875rem;
+  font-size: 400;
+  color: var(--text-color);
+}
+
+.text {
+  font-size: 4.5rem;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+button {
+  border-radius: 4px;
+  border: 0;
+  background-color: var(--purple);
+  font-size: 16px;
+  color: #FFF;
+  width: 160px;
+  height: 46px;
 }
