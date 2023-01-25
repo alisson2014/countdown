@@ -5,7 +5,7 @@ const secondsEl = document.getElementById("seconds")
 
 const launch = "1 Feb 2023"
 
-function countdown() {
+const countdown = () => {
   const launchDate = new Date(launch)
   const currentDate = new Date()
 

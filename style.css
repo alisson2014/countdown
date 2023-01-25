@@ -19,7 +19,8 @@ body * {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 7rem 0;
+  height: 100vh;
+  margin: auto 0;
 }
 
 .info {
@@ -81,4 +82,19 @@ button {
   color: #FFF;
   width: 160px;
   height: 46px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .info h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
 }
