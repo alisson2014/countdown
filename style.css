@@ -62,7 +62,7 @@ span.subscribe {
 }
 
 .text {
-  font-size: 4.5rem;
+  font-size: 3.8rem;
   font-weight: 400;
   color: var(--black);
 }
@@ -82,6 +82,13 @@ button {
   color: #FFF;
   width: 160px;
   height: 46px;
+  cursor: pointer;
+  transition: .5s all ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+  letter-spacing: 1px;
 }
 
 @media (max-width: 600px) {
